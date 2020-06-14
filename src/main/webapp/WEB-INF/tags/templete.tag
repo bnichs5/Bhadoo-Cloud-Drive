@@ -59,7 +59,7 @@
                         <!-- Navbar Brand --><a href="/" class="navbar-brand">
                         <div class="brand-text brand-big hidden-lg-down">
                         </div>
-                        <div class="brand-text brand-small"><strong>SRCD</strong></div>
+                        <div class="brand-text brand-small"><strong>SharedRiches.com</strong></div>
                     </a>
                         <!-- Toggle Button--><a id="toggle-btn" href="#"
                                                 class="menu-btn active"><span></span><span></span><span></span></a>
