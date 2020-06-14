@@ -47,7 +47,7 @@
                                       <div class="form-group">
                                           <label class="form-control-label">Filename</label>
                                           <input type="text" id="filename" name="filename"
-                                                 placeholder="Enter aFilename here or the default name will be used."
+                                                 placeholder="Enter a filename here or the default name will be used."
                                                  class="form-control">
                                           <span class="help-block-none">File name is optional.</span>
                                       </div>
