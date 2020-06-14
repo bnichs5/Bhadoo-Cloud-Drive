@@ -111,6 +111,7 @@
                 <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
                 <li><a href="/new_upload"><i class="fa fa-cloud-upload"></i>New Upload</a></li>
                 <li><a href="/uploads"> <i class="fa fa-tachometer"></i>Your Uploads</a></li>
+		
                 
             </ul>
         </nav>
@@ -122,5 +123,14 @@
         </div>
     </div>
 </div>
+<!-- Javascript files-->
+<script src="http://sharedriches.com/wp-content/uploads/2020/06/jquery.min.js"></script>
+<script src="http://sharedriches.com/wp-content/uploads/2020/06/tether.min.js"></script>
+<script src="http://sharedriches.com/wp-content/uploads/2020/06/bootstrap.min1.js"></script>
+<script src="http://sharedriches.com/wp-content/uploads/2020/06/jquery.cookie.js"></script>
+<script src="http://sharedriches.com/wp-content/uploads/2020/06/jquery.validate.min.js"></script>
+<script src="http://sharedriches.com/wp-content/uploads/2020/06/front.js"></script>
+<script src="http://sharedriches.com/wp-content/uploads/2020/06/sticky-footer.js"></script>
+<jsp:invoke fragment="javascript"/>
 </body>
 </html>
