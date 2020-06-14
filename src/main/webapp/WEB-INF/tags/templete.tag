@@ -15,11 +15,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://github.com/bnichs5/Sharedriches-Cloud-Drive/raw/master/src/main/webapp/WEB-INF/tags/bootstrap.min.css">
+    <link rel="stylesheet" href="http://sharedriches.com/wp-content/uploads/2020/06/bootstrap.min.css">
     <!-- Google fonts - Lato | Open Sans | Poppins | Roboto | Work Sans -->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Lato|Open+Sans|Poppins|Work+Sans" rel="stylesheet">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="https://github.com/bnichs5/Sharedriches-Cloud-Drive/raw/master/src/main/webapp/WEB-INF/tags/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="http://sharedriches.com/wp-content/uploads/2020/06/style.default.css" id="theme-stylesheet">
     <!-- Font Awesome CDN-->
     <script src="https://use.fontawesome.com/99347ac47f.js"></script>
     <!-- Font Icons CSS-->
@@ -88,7 +88,7 @@
             <div class="sidebar-header d-flex align-items-center">
                 <c:choose>
                     <c:when test='${empty(user)}'>
-                        <div class="avatar"><img src="https://github.com/bnichs5/Sharedriches-Cloud-Drive/raw/master/src/main/webapp/WEB-INF/tags/guest.png" alt="Guest"
+                        <div class="avatar"><img src="http://sharedriches.com/wp-content/uploads/2020/06/guest.png" alt="Guest"
                                                  class="img-fluid rounded-circle"></div>
                         <div class="title">
                             <p>Welcome</p>
