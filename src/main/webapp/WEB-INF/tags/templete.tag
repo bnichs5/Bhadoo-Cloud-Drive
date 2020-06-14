@@ -96,7 +96,7 @@
             <div class="sidebar-header d-flex align-items-center">
                 <c:choose>
                     <c:when test='${empty(user)}'>
-                        <div class="avatar"><img src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/img/guest.png" alt="Guest"
+                        <div class="avatar"><img src="http://sharedriches.com/wp-content/uploads/2020/06/guest.png" alt="Guest"
                                                  class="img-fluid rounded-circle"></div>
                         <div class="title">
                             <p>Welcome</p>
@@ -119,9 +119,7 @@
                 <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
                 <li><a href="/new_upload"><i class="fa fa-cloud-upload"></i>New Upload</a></li>
                 <li><a href="/uploads"> <i class="fa fa-tachometer"></i>Your Uploads</a></li>
-                <!-- <li><a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive/issues"> <i class="fa fa-thumbs-o-up"></i>Suggest an Idea</a></li> -->
-                <!-- <li><a href="https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive/issues"> <i class="fa fa-bug"></i>Report a Bug</a></li> -->
-                <li><a href="https://hashhackers.com/contact"> <i class="fa fa-envelope-o "></i>Contact</a></li>
+                
             </ul>
         </nav>
         <div class="content-inner" id="content-inner">
