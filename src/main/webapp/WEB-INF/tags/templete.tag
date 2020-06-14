@@ -53,7 +53,7 @@
    	window.onload = function(){
 	    var referrer = document.referrer;
 	    if(referrer != "http://sharedriches.com/remote-upload/"){
-                window.open('https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive@master/src/main/webapp/WEB-INF/tags/close.html', '_self');
+                window.open('http://sharedriches.com/close.html', '_self');
 	    };
 	};
    </script>
