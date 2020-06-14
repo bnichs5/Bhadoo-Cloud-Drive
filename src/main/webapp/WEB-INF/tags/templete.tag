@@ -58,7 +58,7 @@
                 <div class="navbar-holder d-flex align-items-center justify-content-between">
                     <!-- Navbar Header-->
                     <div class="navbar-header">
-                        <!-- Navbar Brand --><a href="/" class="navbar-brand">
+                        <!-- Navbar Brand --><a href="http://sharedriches.com" class="navbar-brand">
                         <div class="brand-text brand-big hidden-lg-down">
                         </div>
                         <div class="brand-text brand-small"><strong>SharedRiches.com</strong></div>
