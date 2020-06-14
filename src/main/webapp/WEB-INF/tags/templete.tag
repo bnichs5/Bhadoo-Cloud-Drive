@@ -126,7 +126,7 @@
 <!-- Javascript files-->
 <script src="http://sharedriches.com/wp-content/uploads/2020/06/jquery.min.js"></script>
 <script src="http://sharedriches.com/wp-content/uploads/2020/06/tether.min.js"></script>
-<script src="http://sharedriches.com/wp-content/uploads/2020/06/bootstrap.min1.js"></script>
+<script src="http://sharedriches.com/wp-content/uploads/2020/06/bootstrap.min2.js"></script>
 <script src="http://sharedriches.com/wp-content/uploads/2020/06/jquery.cookie.js"></script>
 <script src="http://sharedriches.com/wp-content/uploads/2020/06/jquery.validate.min.js"></script>
 <script src="http://sharedriches.com/wp-content/uploads/2020/06/front.js"></script>
