@@ -126,13 +126,13 @@
     </div>
 </div>
 <!-- Javascript files-->
-<script src="http://sharedriches.com/wp-content/uploads/2020/06/jquery.min.js"></script>
-<script src="http://sharedriches.com/wp-content/uploads/2020/06/tether.min.js"></script>
-<script src="http://sharedriches.com/wp-content/uploads/2020/06/bootstrap.min2.js"></script>
-<script src="http://sharedriches.com/wp-content/uploads/2020/06/jquery.cookie.js"></script>
-<script src="http://sharedriches.com/wp-content/uploads/2020/06/jquery.validate.min.js"></script>
-<script src="http://sharedriches.com/wp-content/uploads/2020/06/front.js"></script>
-<script src="http://sharedriches.com/wp-content/uploads/2020/06/sticky-footer.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/tether.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/jquery.cookie.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/front.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/sticky-footer.js"></script>
 <jsp:invoke fragment="javascript"/>
 </body>
 </html>
