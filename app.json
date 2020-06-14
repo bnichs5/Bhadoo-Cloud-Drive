@@ -1,21 +1,21 @@
 {
-    "name": "SaveToGoogleDrive - Bhadoo Cloud",
+    "name": "SaveToGoogleDrive - Sharedriches Cloud",
     "description": "App to Upload files directly to Google Drive",
-    "repository": "https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive",
-    "logo": "https://raw.githubusercontent.com/ParveenBhadooOfficial/SaveToGoogleDrive/master/src/main/resources/static/img/savetodrive.png",
+    "repository": "https://github.com/bnichs5/Sharedriches-Cloud-Drive",
+    "logo": "https://raw.githubusercontent.com/bnichs5/Sharedriches-Cloud-Drive/master/src/main/resources/static/img/savetodrive.png",
     "keywords": ["google","drive","bhadoo","bhadoo cloud"],
     "env": {
         "client_id": {
-            "description": "Client ID from Google Console (http://bit.ly/37ED7dv)",
+            "description": "Client ID from Google Console",
             "value": "58094879805-jdsomen2duv9ilj81fcu1qkag5todele.apps.googleusercontent.com"
         },
         "client_secret": {
-            "description": "Client Secret from Google Console (http://bit.ly/37ED7dv)",
+            "description": "Client Secret from Google Console",
             "value": "EG0OYdjcllAGJ81eEMpQ3vW6"
         },
         "redirect_uri": {
             "description": "Your App URL eg. https://app.example.com/api/oauth/google/callback (Replace this with your own)",
-            "value": "https://bhadooclouduploader.herokuapp.com/api/oauth/google/callback"
+            "value": "https://sharedriches-cloud-uploader.herokuapp.com/api/oauth/google/callback"
         }
     }
 }
