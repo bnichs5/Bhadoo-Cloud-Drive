@@ -11,7 +11,7 @@ Save Files from URL to Google Drive
 * Select Web Application.
 * In `Authorized JavaScript origins` enter your domain name or IP whichever you are using for this app.
 * In `Authorized redirect URIs` enter your domain name or IP with `/api/oauth/google/callback` at last.
-* eg. for `https://bhadooclouduploader.herokuapp.com` it's `https://bhadooclouduploader.herokuapp.com/api/oauth/google/callback`
+* eg. for `https://sharedriches-cloud-uploader.herokuapp.com` it's `https://sharedriches-cloud-uploader.herokuapp.com/api/oauth/google/callback`
 * Copy your details.
 * You'll need these 3 when deploying to Heroku using below button.
 
