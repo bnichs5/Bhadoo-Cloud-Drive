@@ -90,7 +90,7 @@
             <div class="sidebar-header d-flex align-items-center">
                 <c:choose>
                     <c:when test='${empty(user)}'>
-                        <div class="avatar"><img src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Bhadoo-Cloud-Drive/src/main/resources/static/img/guest.png" alt="Guest"
+                        <div class="avatar"><img src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/img/guest.png" alt="Guest"
                                                  class="img-fluid rounded-circle"></div>
                         <div class="title">
                             <p>Welcome</p>
