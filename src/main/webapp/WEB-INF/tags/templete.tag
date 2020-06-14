@@ -17,11 +17,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="http://sharedriches.com/wp-content/uploads/2020/06/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/css/bootstrap.min.css">
     <!-- Google fonts - Lato | Open Sans | Poppins | Roboto | Work Sans -->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Lato|Open+Sans|Poppins|Work+Sans" rel="stylesheet">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="http://sharedriches.com/wp-content/uploads/2020/06/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/css/style.default.css" id="theme-stylesheet">
     <!-- Font Awesome CDN-->
     <script src="https://use.fontawesome.com/99347ac47f.js"></script>
     <!-- Font Icons CSS-->
@@ -61,7 +61,7 @@
                         <!-- Navbar Brand --><a href="/" class="navbar-brand">
                         <div class="brand-text brand-big hidden-lg-down">
                         </div>
-                        <div class="brand-text brand-small"><strong>SRCU</strong></div>
+                        <div class="brand-text brand-small"><strong>SharedRiches.com</strong></div>
                     </a>
                         <!-- Toggle Button--><a id="toggle-btn" href="#"
                                                 class="menu-btn active"><span></span><span></span><span></span></a>
@@ -90,7 +90,7 @@
             <div class="sidebar-header d-flex align-items-center">
                 <c:choose>
                     <c:when test='${empty(user)}'>
-                        <div class="avatar"><img src="http://sharedriches.com/wp-content/uploads/2020/06/guest.png" alt="Guest"
+                        <div class="avatar"><img src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Bhadoo-Cloud-Drive/src/main/resources/static/img/guest.png" alt="Guest"
                                                  class="img-fluid rounded-circle"></div>
                         <div class="title">
                             <p>Welcome</p>
