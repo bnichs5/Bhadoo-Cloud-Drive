@@ -50,6 +50,7 @@
     }</style>
 </head>
 <body>
+
 <div class="page home-page">
     <!-- Main Navbar-->
     <header class="header">
@@ -71,7 +72,7 @@
                     <c:choose>
 	                    <c:when test='${empty(user)}'>
                         <li class="nav-item">
-			<img class="g-login" src="https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_light_normal_web.png" title="Sign in with Google" onclick="location.href = '/api/oauth/google/redirect'">
+			<img class="g-login" src="https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_light_normal_web.png" title="Sign in with Google" onclick="window.open('','_new').location.href = '/api/oauth/google/redirect'">
 			<!-- <img class="g-login" src="https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_light_normal_web.png" title="Sign in with Google" onclick="window.open('','_new').location.href = 'https://bit.ly/3fz9P3l'"> -->
 			</li>
                         </c:when>
