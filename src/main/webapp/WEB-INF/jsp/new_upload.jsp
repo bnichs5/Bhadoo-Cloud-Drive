@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Dhaval
-  Date: 27-09-2017
-  Time: 04:22 PM
-  To change this template use File | Settings | File Templates.
---%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
@@ -54,7 +47,7 @@
                                       <div class="form-group">
                                           <label class="form-control-label">Filename</label>
                                           <input type="text" id="filename" name="filename"
-                                                 placeholder="Enter Filename here"
+                                                 placeholder="Enter aFilename here or the default name will be used."
                                                  class="form-control">
                                           <span class="help-block-none">File name is optional.</span>
                                       </div>
