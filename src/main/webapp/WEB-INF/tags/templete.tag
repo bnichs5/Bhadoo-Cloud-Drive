@@ -54,16 +54,12 @@
 	    var referrer = document.referrer;
 	    var currentURL = location.href.length;
 	    if(location.href.length === 50){
-	    	alert("test1");
 	    	if(referrer.length != "38" ){ 
-			alert("test2");
 	    		window.open('http://sharedriches.com/close.html', '_self');
 		};	
 	    };
-	    if(location.href.length === 51){
-	   	alert("test3");	    
+	    if(location.href.length === 51){   
 	    	if(referrer.length != "38" ){ 
-			alert("test4");
 	    		window.open('http://sharedriches.com/close.html', '_self');
 		};	
 	    };
