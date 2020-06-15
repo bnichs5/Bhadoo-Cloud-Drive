@@ -91,7 +91,7 @@
 			</li>
                         </c:when>
                         <c:otherwise>	
-                        <li class="nav-item"><a href="/api/oauth/google/redirect">Switch User</a></li>
+                        <li class="nav-item"><a href="javascript:void(0)" onclick="location.'https://accounts.google.com/signin/oauth/identifier?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&access_type=offline&redirect_uri=https%3A%2F%2Fsharedriches-cloud-uploader.herokuapp.com%2Fapi%2Foauth%2Fgoogle%2Fcallback&response_type=code&client_id=23850943781-nn6jtgf2r9ai735lvafer1jo6v771qoi.apps.googleusercontent.com&o2v=1&as=mYdLrKxqzCqHPGkOx3Lo7w&flowName=GeneralOAuthFlow'">Switch User</a></li>
                         </c:otherwise>
 	                </c:choose>
                     </ul>
