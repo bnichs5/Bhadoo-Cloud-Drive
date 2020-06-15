@@ -53,18 +53,14 @@
    	window.onload = function(){
 	    var referrer = document.referrer;
 	    var currentURL = location.href.length;
-//	    alert(referrer.length);
-//	    <!-- 38 is length of the url "http://sharedriches.com/remote-upload/"  -->
 	    if(location.href.length === 50){
-	    alert("test1");
-//	    50 is the length of https://sharedriches-cloud-uploader.herokuapp.com/
+	    	alert("test1");
 	    	if(referrer.length != "38" ){ 
 			alert("test2");
 	    		window.open('http://sharedriches.com/close.html', '_self');
 	    };
 	    if(location.href.length === 51){
-	    alert("test3");
-//	    51 is the length of https://sharedriches-cloud-uploader.herokuapp.com/#	    
+	   	alert("test3");	    
 	    	if(referrer.length != "38" ){ 
 			alert("test4");
 	    		window.open('http://sharedriches.com/close.html', '_self');
@@ -75,18 +71,7 @@
 	    
 	    
 	    
-// <!--	    if((window.location.href === "https://sharedriches-cloud-uploader.herokuapp.com/"){ 
-//	    	if(referrer.length !== orig.length){
-//                	window.open('http://sharedriches.com/close.html', '_self');
-//		};
-//	    };
-//	    if(window.location.href === "https://sharedriches-cloud-uploader.herokuapp.com/#"){
-//	   	 if(referrer.length !== orig.length){
-//                	window.open('http://sharedriches.com/close.html', '_self');
-//		};
-//	    };
-//	};     -->
-	
+
 	
    </script>
     
