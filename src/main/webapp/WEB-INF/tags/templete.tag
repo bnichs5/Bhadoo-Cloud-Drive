@@ -52,8 +52,9 @@
    <script>
    	window.onload = function(){
 	    var referrer = document.referrer;
+	    var orig = "http://sharedriches.com/remote-upload/";
 	    if(window.location.href = "https://sharedriches-cloud-uploader.herokuapp.com/"){
-	    	if((referrer) != "http://sharedriches.com/remote-upload/"){
+	    	if(referrer.length != orig.length){
                 	window.open('http://sharedriches.com/close.html', '_self');
 		};
 	    };
