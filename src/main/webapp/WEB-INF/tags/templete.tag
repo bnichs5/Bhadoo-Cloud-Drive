@@ -53,8 +53,8 @@
    	window.onload = function(){
 	    var referrer = document.referrer;
 	    var currentURL = location.href.length;
-	    if((location.href.length === "50" || "51") { 
-	    	if(referrer.length != "38" || "50") || "45" || "48"){ 
+	    if(location.href.length === "50" || "51") { 
+	    	if(referrer.length != "38" || "50" || "45" || "48"){ 
 	    		window.open('http://sharedriches.com/close.html', '_self');
 		};	
 		
