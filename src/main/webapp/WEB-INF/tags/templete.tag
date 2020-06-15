@@ -86,12 +86,12 @@
                     <c:choose>
 	                    <c:when test='${empty(user)}'>
                         <li class="nav-item">
-			<img class="g-login" src="https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_light_normal_web.png" title="Sign in with Google" onclick="window.open('','_new').location.href = 'https://bit.ly/2Y1fYzf'">
+			<img class="g-login" src="https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_light_normal_web.png" title="Sign in with Google" onclick="window.open('','_new').location.href = '/api/oauth/google/redirect'">
 			<!-- <img class="g-login" src="https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_light_normal_web.png" title="Sign in with Google" onclick="window.open('','_new').location.href = 'https://bit.ly/2Y1fYzf'"> -->
 			</li>
                         </c:when>
                         <c:otherwise>	
-                        <li class="nav-item"><a href="javascript:void(0)" onclick="location.'https://accounts.google.com/signin/oauth/identifier?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&access_type=offline&redirect_uri=https%3A%2F%2Fsharedriches-cloud-uploader.herokuapp.com%2Fapi%2Foauth%2Fgoogle%2Fcallback&response_type=code&client_id=23850943781-nn6jtgf2r9ai735lvafer1jo6v771qoi.apps.googleusercontent.com&o2v=1&as=mYdLrKxqzCqHPGkOx3Lo7w&flowName=GeneralOAuthFlow'">Switch User</a></li>
+                        <li class="nav-item"><a href="javascript:void(0)" onclick="location.'/api/oauth/google/redirect'">Switch User</a></li>
                         </c:otherwise>
 	                </c:choose>
                     </ul>
@@ -127,9 +127,9 @@
             <!-- Sidebar Navidation Menus --><span class="heading">Main</span>
             <ul class="list-unstyled">
                 <!-- <li><a href="/"><i class="fa fa-home"></i>Home</a></li> -->
-		<li><a href="javascript:void(0)" onclick="location.href='http://sharedriches-cloud-uploader.herokuapp.com/'"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="javascript:void(0)" onclick="location.href='http://sharedriches-cloud-uploader.herokuapp.com/new_upload'"><i class="fa fa-cloud-upload"></i>New Upload</a></li>
-		<li><a href="javascript:void(0)" onclick="location.href='http://sharedriches-cloud-uploader.herokuapp.com/uploads'"><i class="fa fa-tachometer"></i>Your Uploads</a></li>
+		<li><a href="javascript:void(0)" onclick="location.href='/'"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="javascript:void(0)" onclick="location.href='/new_upload'"><i class="fa fa-cloud-upload"></i>New Upload</a></li>
+		<li><a href="javascript:void(0)" onclick="location.href='/uploads'"><i class="fa fa-tachometer"></i>Your Uploads</a></li>
 		<!-- <li><a href="/new_upload"><i class="fa fa-cloud-upload"></i>New Upload</a></li> -->
                 <!-- <li><a href="/uploads"><i class="fa fa-tachometer"></i>Your Uploads</a></li> -->
 		
