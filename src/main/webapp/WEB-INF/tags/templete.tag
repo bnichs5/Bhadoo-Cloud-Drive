@@ -72,12 +72,13 @@
                 <div class="navbar-holder d-flex align-items-center justify-content-between">
                     <!-- Navbar Header-->
                     <div class="navbar-header">
-                        <!-- Navbar Brand --><a href="http://sharedriches.com" class="navbar-brand">
+                        <!-- Navbar Brand --><!-- <a href="#" class="navbar-brand"> --> <a href="javascript:void(0)" onclick="location.href='#'"></a>
+		
                         <div class="brand-text brand-big hidden-lg-down">
                         </div>
                         <div class="brand-text brand-small"><strong>SharedRiches.com</strong></div>
                     </a>
-                        <!-- Toggle Button--><a id="toggle-btn" href="#"
+                        <!-- Toggle Button--><a id="toggle-btn" href="javascript:void(0)" onclick="location.href='#'"
                                                 class="menu-btn active"><span></span><span></span><span></span></a>
                     </div>
                     <!-- Navbar Menu -->
@@ -125,7 +126,8 @@
             </div>
             <!-- Sidebar Navidation Menus --><span class="heading">Main</span>
             <ul class="list-unstyled">
-                <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+                <!-- <li><a href="/"><i class="fa fa-home"></i>Home</a></li> -->
+		<li><a href="javascript:void(0)" onclick="location.href='http://sharedriches-cloud-uploader.herokuapp.com/'"><i class="fa fa-home"></i>Home</a></li>
                 <li><a href="javascript:void(0)" onclick="location.href='http://sharedriches-cloud-uploader.herokuapp.com/new_upload'"><i class="fa fa-cloud-upload"></i>New Upload</a></li>
 		<li><a href="javascript:void(0)" onclick="location.href='http://sharedriches-cloud-uploader.herokuapp.com/uploads'"><i class="fa fa-tachometer"></i>Your Uploads</a></li>
 		<!-- <li><a href="/new_upload"><i class="fa fa-cloud-upload"></i>New Upload</a></li> -->
