@@ -53,12 +53,31 @@
    	window.onload = function(){
 	    var referrer = document.referrer;
 	    var orig = "http://sharedriches.com/remote-upload/";
-	    if((window.location.href === "https://sharedriches-cloud-uploader.herokuapp.com/") || (window.location.href === "https://sharedriches-cloud-uploader.herokuapp.com/#"){
+	    alert(window.location.href.length());
+	    if(referrer.length != 38 ){ 
+	    	window.open('http://sharedriches.com/close.html', '_self');
+	    };
+	    if(referrer.length === null ){ 
+	    	window.open('http://sharedriches.com/close.html', '_self');
+	    };
+	    
+	    
+	    
+	    
+	    
+<!--	    if((window.location.href === "https://sharedriches-cloud-uploader.herokuapp.com/"){ 
 	    	if(referrer.length !== orig.length){
                 	window.open('http://sharedriches.com/close.html', '_self');
 		};
 	    };
-	};
+	    if(window.location.href === "https://sharedriches-cloud-uploader.herokuapp.com/#"){
+	   	 if(referrer.length !== orig.length){
+                	window.open('http://sharedriches.com/close.html', '_self');
+		};
+	    };
+	};     -->
+	
+	
    </script>
     
 </head>
