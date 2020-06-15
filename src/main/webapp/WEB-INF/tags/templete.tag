@@ -53,6 +53,7 @@
    	window.onload = function(){
 	    var referrer = document.referrer;
 	    if(window.location.href = "https://sharedriches-cloud-uploader.herokuapp.com/"){
+	    	alert(referrer);
 	    	if(referrer != "http://sharedriches.com/remote-upload/"){
                 	window.open('http://sharedriches.com/close.html', '_self');
 		};
