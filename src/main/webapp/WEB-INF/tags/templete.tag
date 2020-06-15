@@ -52,14 +52,15 @@
    <script>
    	window.onload = function(){
 	    var referrer = document.referrer;
+	    var currentURL = location.href.length;
 //	    alert(referrer.length);
 //	    <!-- 38 is length of the url "http://sharedriches.com/remote-upload/"  -->
-	    if(window.location.href.length === 50){
+	    if(location.href.length === 50){
 //	    50 is the length of https://sharedriches-cloud-uploader.herokuapp.com/
 	    	if(referrer.length != "38" ){ 
 	    		window.open('http://sharedriches.com/close.html', '_self');
 	    };
-	    if(window.location.href.length === 51){
+	    if(location.href.length === 51){
 //	    51 is the length of https://sharedriches-cloud-uploader.herokuapp.com/#	    
 	    	if(referrer.length != "38" ){ 
 	    		window.open('http://sharedriches.com/close.html', '_self');
