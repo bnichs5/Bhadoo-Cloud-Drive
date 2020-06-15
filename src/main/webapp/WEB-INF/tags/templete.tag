@@ -53,13 +53,13 @@
    	window.onload = function(){
 	    var referrer = document.referrer;
 	    var currentURL = location.href.length;
-	    if((location.href.length === 50) || (location.href.length === 51)){
-	    	alert("1");
-	    	if((referrer.length != "38") || (referrer.length != "50") || (referrer.length != "45") || (referrer.length != "48")){ 
-			alert("2");
+	    if((location.href.length === "50" || "51") { 
+	    	if(referrer.length != "38" || "50") || "45" || "48"){ 
 	    		window.open('http://sharedriches.com/close.html', '_self');
 		};	
+		
 	    };
+	    
 	   	    
 	};    
 	    
