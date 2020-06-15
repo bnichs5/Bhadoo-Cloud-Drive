@@ -91,7 +91,7 @@
 			</li>
                         </c:when>
                         <c:otherwise>	
-                        <li class="nav-item"><a href="javascript:void(0)" onclick="location.'/api/oauth/google/redirect'">Switch User</a></li>
+                        <li class="nav-item"><a href="onclick="window.open('','_new').location.href = '/api/oauth/google/redirect'">Switch User</a></li>
                         </c:otherwise>
 	                </c:choose>
                     </ul>
