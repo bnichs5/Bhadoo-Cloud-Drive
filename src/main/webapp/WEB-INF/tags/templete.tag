@@ -59,6 +59,7 @@
 	    if(referrer.length === null ){ 
 	    	window.open('http://sharedriches.com/close.html', '_self');
 	    };
+	   
 	};    
 	    
 	    
