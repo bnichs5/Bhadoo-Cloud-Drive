@@ -53,7 +53,7 @@
    	window.onload = function(){
 	    var referrer = document.referrer;
 	    <!-- 38 is length of the url "http://sharedriches.com/remote-upload/"  -->
-	    if(referrer.length != 38 ){ 
+	    if(referrer.length != "38" ){ 
 	    	window.open('http://sharedriches.com/close.html', '_self');
 	    };
 	    if(referrer.length === null ){ 
