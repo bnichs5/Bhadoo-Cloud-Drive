@@ -54,9 +54,15 @@
 	    var referrer = document.referrer;
 //	    alert(referrer.length);
 //	    <!-- 38 is length of the url "http://sharedriches.com/remote-upload/"  -->
-	    if(referrer.length != "38" ){ 
-	    	window.open('http://sharedriches.com/close.html', '_self');
+	    if(window.location.href.length === 50){
+	    	if(referrer.length != "38" ){ 
+	    		window.open('http://sharedriches.com/close.html', '_self');
 	    };
+	    if(window.location.href.length === 51){
+	    	if(referrer.length != "38" ){ 
+	    		window.open('http://sharedriches.com/close.html', '_self');
+	    };
+	    
 	};    
 	    
 	    
