@@ -39,7 +39,7 @@
 
         <ul class="breadcrumb">
             <div class="container-fluid">
-                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item"><a href="javascript:void(0)" onclick="location.href='/'>Home</a></li>
                 <li class="breadcrumb-item active">Your Uploads</li>
             </div>
         </ul>
