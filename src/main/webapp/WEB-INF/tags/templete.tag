@@ -63,7 +63,7 @@
 	   	    
 	};    
 	    
-	   if referrer length = 0 then close??? 
+	   if referrer length = 0  or greater than 60 then close??? 
 	    
 	    
 
