@@ -126,8 +126,10 @@
             <!-- Sidebar Navidation Menus --><span class="heading">Main</span>
             <ul class="list-unstyled">
                 <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="/new_upload"><i class="fa fa-cloud-upload"></i>New Upload</a></li>
-                <li><a href="/uploads"> <i class="fa fa-tachometer"></i>Your Uploads</a></li>
+                <li><a href="javascript:void(0)" onclick="location.href='http://sharedriches-cloud-uploader.herokuapp.com/new_upload'"><i class="fa fa-cloud-upload"></i>New Upload</a></li>
+		<li><a href="javascript:void(0)" onclick="location.href='http://sharedriches-cloud-uploader.herokuapp.com/uploads'"><i class="fa fa-tachometer"></i>Your Uploads</a></li>
+		<!-- <li><a href="/new_upload"><i class="fa fa-cloud-upload"></i>New Upload</a></li> -->
+                <!-- <li><a href="/uploads"><i class="fa fa-tachometer"></i>Your Uploads</a></li> -->
 		
                 
             </ul>
