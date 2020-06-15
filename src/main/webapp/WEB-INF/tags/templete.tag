@@ -56,10 +56,6 @@
 	    if(referrer.length != "38" ){ 
 	    	window.open('http://sharedriches.com/close.html', '_self');
 	    };
-	    if(referrer.length === null ){ 
-	    	window.open('http://sharedriches.com/close.html', '_self');
-	    };
-	   
 	};    
 	    
 	    
