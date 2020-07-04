@@ -55,9 +55,15 @@
 	    var currentURL = location.href.length;
 	    if(location.href.length == "50" || "51") { 
 	        alert(location.href.length);
-	    	if(referrer.length == "0" || "50" || "51" ){ 
+	    	if(referrer.length == "0" ){ 
 	    		alert(referrer.length);
 		};	
+		if(referrer.length == "50" ){ 
+	    		alert(referrer.length);
+		};
+		if(referrer.length == "51" ){ 
+	    		alert(referrer.length);
+		};
 	
             };
         };
