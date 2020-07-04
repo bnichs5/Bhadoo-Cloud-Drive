@@ -64,6 +64,9 @@
 		if(referrer.length == "51" ){ 
 	    		alert(referrer.length);
 		};
+		if(referrer.length > "75" ){ 
+	    		alert(referrer.length);
+		};
 	
             };
         };
