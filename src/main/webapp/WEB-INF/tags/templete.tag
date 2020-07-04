@@ -53,8 +53,7 @@
    	window.onload = function(){
 	    var referrer = document.referrer;
 	    var currentURL = location.href.length;
-	    if(location.href.length == "50") { 
-	        alert(location.href.length);
+	    if(location.href.length == "50") {
 	    	if(referrer.length == "0" ){ 
 			window.open('http://sharedriches.com/remote-upload/', '_self');
 		};	
