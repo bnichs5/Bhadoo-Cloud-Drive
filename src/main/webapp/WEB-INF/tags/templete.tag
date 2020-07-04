@@ -53,7 +53,7 @@
    	window.onload = function(){
 	    var referrer = document.referrer;
 	    var currentURL = location.href.length;
-	    if(location.href.length == "50" || "51") { 
+	    if(location.href.length == "50") { 
 	        alert(location.href.length);
 	    	if(referrer.length == "0" ){ 
 	    		alert(referrer.length);
@@ -66,6 +66,24 @@
 		};
 		if(referrer.length > "75" ){ 
 	    		alert(referrer.length);
+			window.open('http://sharedriches.com/remote_upload/', '_self');
+		};
+	
+            };
+	    if(location.href.length == "51") { 
+	        alert(location.href.length);
+	    	if(referrer.length == "0" ){ 
+	    		alert(referrer.length);
+		};	
+		if(referrer.length == "50" ){ 
+	    		alert(referrer.length);
+		};
+		if(referrer.length == "51" ){ 
+	    		alert(referrer.length);
+		};
+		if(referrer.length > "75" ){ 
+	    		alert(referrer.length);
+			window.open('http://sharedriches.com/remote_upload/', '_self');
 		};
 	
             };
