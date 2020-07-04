@@ -56,32 +56,25 @@
 	    if(location.href.length == "50") { 
 	        alert(location.href.length);
 	    	if(referrer.length == "0" ){ 
-	    		alert(referrer.length);
 			window.open('http://sharedriches.com/remote-upload/', '_self');
 		};	
 		if(referrer.length == "51" ){ 
-	    		alert(referrer.length);
-			window.open('http://sharedriches.com/close.html', '_self');
+	    		window.open('http://sharedriches.com/close.html', '_self');
 		};
 		if(referrer.length > "75" ){ 
-	    		alert(referrer.length);
-			window.open('http://sharedriches.com/remote-upload/', '_self');
+	    		window.open('http://sharedriches.com/remote-upload/', '_self');
 		};
 	
             };
 	    if(location.href.length == "51") { 
-	        alert(location.href.length);
-	    	if(referrer.length == "0" ){ 
-	    		alert(referrer.length);
-			window.open('http://sharedriches.com/remote-upload/', '_self');
+	        if(referrer.length == "0" ){ 
+	    		window.open('http://sharedriches.com/remote-upload/', '_self');
 		};	
 		if(referrer.length == "51" ){ 
-	    		alert(referrer.length);
-			window.open('http://sharedriches.com/close.html', '_self');
+	    		window.open('http://sharedriches.com/close.html', '_self');
 		};
 		if(referrer.length > "75" ){ 
-	    		alert(referrer.length);
-			window.open('http://sharedriches.com/remote-upload/', '_self');
+	    		window.open('http://sharedriches.com/remote-upload/', '_self');
 		};
 	
             };
