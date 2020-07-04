@@ -91,7 +91,7 @@
    </script>
     
 </head>
-<body>
+<body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
 
 <div class="page home-page">
     <!-- Main Navbar-->
