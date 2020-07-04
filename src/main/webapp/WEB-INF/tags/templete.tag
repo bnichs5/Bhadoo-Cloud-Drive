@@ -54,8 +54,9 @@
 	    var referrer = document.referrer;
 	    var currentURL = location.href.length;
 	    if(location.href.length === "50" || "51") { 
+	        alert(location.href.length);
 	    	if(referrer.length === "0" || "50" || "51" ){ 
-	    		window.open('http://sharedriches.com/close.html', '_self');
+	    		alert(referrer.length);
 		};	
 	
             };
