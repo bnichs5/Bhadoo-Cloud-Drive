@@ -12,7 +12,7 @@
             <div class="container-fluid">
                 <div class="row bg-white has-shadow">
                 	<div class="col-xl-12" style="text-align:center">
-	                <p style="font-size: 20px; color: #ed3424">You need to Login First</p>
+	                <p style="font-size: 20px; color: #ed3424">You need to Sign in with Google First</p>
 			<!--<img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" title="Sign in with Google" onclick="window.open('','_new').location.href = 'https://sharedriches-cloud-uploader.herokuapp.com/api/oauth/google/redirect'">-->
                     </div>
                 </div>
