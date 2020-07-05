@@ -56,10 +56,6 @@
 	    if(location.href.length == "50") {
 	        alert(location.href.length);
 		alert(referrer.length);
-		alert(referrer);
-		if(referrer = "https://sharedriches-cloud-uploader.herokuapp.com/new_upload"){
-		        alert("10000000");
-		};
 	    	if(referrer.length == "0" ){ 
 			window.open('http://sharedriches.com/remote-upload/', '_self');
 		};	
@@ -69,8 +65,7 @@
 		if(referrer.length > "73" ){ 
 	    		window.open('http://sharedriches.com/remote-upload/', '_self');
 		};
-	
-            };
+	    };
 	    if(location.href.length == "51") { 
 	        alert(location.href.length);
 		alert(referrer.length);
