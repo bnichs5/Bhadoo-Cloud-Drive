@@ -54,9 +54,7 @@
 	    var referrer = document.referrer;
 	    var currentURL = location.href.length;
 	    if(location.href.length == "50") {
-	        alert(location.href.length);
-		alert(referrer.length);
-	    	if(referrer.length == "0" ){ 
+	        if(referrer.length == "0" ){ 
 			window.open('http://sharedriches.com/remote-upload/', '_self');
 		};	
 		if(referrer.length == "51" ){ 
@@ -67,8 +65,6 @@
 		};
 	    };
 	    if(location.href.length == "51") { 
-	        alert(location.href.length);
-		alert(referrer.length);
 	        if(referrer.length == "0" ){ 
 	    		window.open('http://sharedriches.com/remote-upload/', '_self');
 		};	
@@ -86,7 +82,7 @@
    </script>
     
 </head>
-<body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
+<body>
 
 <div class="page home-page">
     <!-- Main Navbar-->
