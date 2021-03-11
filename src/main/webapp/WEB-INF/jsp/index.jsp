@@ -11,7 +11,7 @@
                 	<div class="col-xl-12" style="text-align:center">
 	                    <c:choose>
 	                        <c:when test='${empty(user)}'>
-	                        <p style="font-size: 18px; color: black">Welcome to SharedRiches Cloud Drive Uploader</p>
+	                        <p style="font-size: 18px; color: black">Welcome to Remote-Upload Cloud Drive Uploader</p>
 				<p style="font-size: 15px; color: black">This site has no registration service or user limits.</p> 
 				<p style="font-size: 15px; color: black">Once you login to your Google Drive account you can upload any file from it's URL to your Google Drive Account.</p>
 				<p style="font-size: 15px; color: black">Please Note: This site only supports direct links.</p>
