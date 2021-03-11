@@ -12,16 +12,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SharedRiches.com - Remote Upload URL to Google Drive</title>
+    <title>XXXXXXXXXXXX.com - Remote Upload URL to Google Drive</title>
     <meta name="description" content="Upload Files using URL to Google Drive the easy way.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bnichs5/Remote-Upload-Cloud-Drive/src/main/resources/static/css/bootstrap.min.css">
     <!-- Google fonts - Lato | Open Sans | Poppins | Roboto | Work Sans -->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Lato|Open+Sans|Poppins|Work+Sans" rel="stylesheet">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bnichs5/Remote-Upload-Cloud-Drive/src/main/resources/static/css/style.default.css" id="theme-stylesheet">
     <!-- Font Awesome CDN-->
     <script src="https://use.fontawesome.com/99347ac47f.js"></script>
     <!-- Font Icons CSS-->
@@ -49,37 +49,37 @@
     z-index: 0;
     }</style>
     
-   <script>
+   /* <script>
    	window.onload = function(){
 	    var referrer = document.referrer;
 	    var currentURL = location.href.length;
 	    if(location.href.length == "50") {
 	        if(referrer.length == "0" ){ 
-			window.open('http://sharedriches.com/remote-upload/', '_self');
+			window.open('http://XXXXXXXXXXXXXXXXX.com/remote-upload/', '_self');
 		};	
 		if(referrer.length == "51" ){ 
-	    		window.open('http://sharedriches.com/close.html', '_self');
+	    		window.open('http://XXXXXXXXXXXXXXXXX.com/close.html', '_self');
 		};
 		if(referrer.length > "73" ){ 
-	    		window.open('http://sharedriches.com/remote-upload/', '_self');
+	    		window.open('http://XXXXXXXXXXXXXXXXX.com/remote-upload/', '_self');
 		};
 	    };
 	    if(location.href.length == "51") { 
 	        if(referrer.length == "0" ){ 
-	    		window.open('http://sharedriches.com/remote-upload/', '_self');
+	    		window.open('http://XXXXXXXXXXXXXXXXX.com/remote-upload/', '_self');
 		};	
 		if(referrer.length == "51" ){ 
-	    		window.open('http://sharedriches.com/close.html', '_self');
+	    		window.open('http://XXXXXXXXXXXXXXXXX.com/close.html', '_self');
 		};
 		if(referrer.length > "73" ){ 
-	    		window.open('http://sharedriches.com/remote-upload/', '_self');
+	    		window.open('http://XXXXXXXXXXXXXXXXX.com/remote-upload/', '_self');
 		};
 	
             };
         };
 
 	
-   </script>
+   </script> */
     
 </head>
 <body>
@@ -96,7 +96,7 @@
 		
                         <div class="brand-text brand-big hidden-lg-down">
                         </div>
-                        <div class="brand-text brand-small"><strong>SharedRiches.com</strong></div>
+                        <div class="brand-text brand-small"><strong>XXXXXXXXXXX.com</strong></div>
                     </a>
                         <!-- Toggle Button--><a id="toggle-btn" href="javascript:void(0)" onclick="location.href='#'"
                                                 class="menu-btn active"><span></span><span></span><span></span></a>
@@ -126,7 +126,7 @@
             <div class="sidebar-header d-flex align-items-center">
                 <c:choose>
                     <c:when test='${empty(user)}'>
-                        <div class="avatar"><img src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/img/guest.png" alt="Guest"
+                        <div class="avatar"><img src="https://cdn.jsdelivr.net/gh/bnichs5/Remote-Upload-Cloud-Drive/src/main/resources/static/img/guest.png" alt="Guest"
                                                  class="img-fluid rounded-circle"></div>
                         <div class="title">
                             <p>Welcome</p>
@@ -165,13 +165,13 @@
     </div>
 </div>
 <!-- Javascript files-->
-<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/tether.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/jquery.cookie.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/jquery.validate.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/front.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/bnichs5/Sharedriches-Cloud-Drive/src/main/resources/static/js/sticky-footer.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Remote-Upload-Cloud-Drive/src/main/resources/static/js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Remote-Upload-Cloud-Drive/src/main/resources/static/js/tether.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Remote-Upload-Cloud-Drive/src/main/resources/static/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Remote-Upload-Cloud-Drive/src/main/resources/static/js/jquery.cookie.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Remote-Upload-Cloud-Drive/src/main/resources/static/js/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Remote-Upload-Cloud-Drive/src/main/resources/static/js/front.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bnichs5/Remote-Upload-Cloud-Drive/src/main/resources/static/js/sticky-footer.js"></script>
 <jsp:invoke fragment="javascript"/>
 </body>
 </html>
